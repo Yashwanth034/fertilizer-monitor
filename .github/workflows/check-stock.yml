@@ -3,7 +3,7 @@ name: Check Urea Stock
 on:
   schedule:
     # Tells GitHub to queue this every 5 minutes (Expect delays from GitHub)
-    - cron: '*/30 * * * *'
+    - cron: '4,36 * * * *'
   workflow_dispatch: # Allows you to keep testing it manually
 
 permissions:
